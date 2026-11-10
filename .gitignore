@@ -1,0 +1,18 @@
+.data
+
+# Python environments and generated files
+.venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Downloaded single-cell archives
+data/3ca_lung/*/*.tar.gz
+
+# Large generated expression matrix
+outputs/counts.mtx
